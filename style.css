@@ -36,7 +36,7 @@ body {
 }
 
 .nav-menu ul li a:hover {
-    color: var(--yellow); /* Adjust highlight color */
+    color: var(--yellow);
 }
 
 .navbar button{
@@ -201,16 +201,16 @@ body {
 
 @media screen and (max-width: 1100px) {
     .modern-refinement {
-        flex-direction: column; /* Stack image and text */
-        align-items: center; /* Center everything */
+        flex-direction: column;
+        align-items: center;
         gap: 30px;
         padding: 20px;
-        height: auto; /* Let content decide height */
+        height: auto;
         text-align: center;
     }
 
     .modern-refinement-content p {
-        font-size: 16px; /* Adjust text for readability */
+        font-size: 16px;
     }
 }
 
@@ -322,7 +322,7 @@ body {
 
 .contact-form form {
     display: flex;
-    flex-direction: column; /* Stack inputs vertically */
+    flex-direction: column;
     gap: 15px;
 }
 
@@ -370,7 +370,7 @@ body {
 }
 
 .social-media-icons img {
-    width: 25px; /* Set desired width */
-    height: 25px; /* Set desired height */
+    width: 25px;
+    height: 25px;
     object-fit: cover;
 }
